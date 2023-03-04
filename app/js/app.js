@@ -1,0 +1,11 @@
+$('.hamburger').click(()=>{
+    $('nav').toggleClass('active') 
+})
+$('.close-btn').click(()=>{
+    $('.model').toggleClass('hide') 
+    $('body').css('overflow','initial')
+})
+$('.btn-cta').click(()=>{
+    $('body').css('overflow','hidden')
+    $('.model').toggleClass('hide') 
+})
