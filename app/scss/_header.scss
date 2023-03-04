@@ -4,13 +4,16 @@ header {
     font-size: 1.5rem;
   }
   padding: 1rem;
-  background: linear-gradient(45deg,
-  #070b1d,
-  #070b1d,
-  #070b1d,
-  #0f348a);
+  background: linear-gradient(45deg, #070b1d, #070b1d, #070b1d, #0f348a);
 
   .logo-container {
+    height: 50px;
+    img {
+      height: 80px;
+      width: 80px;
+      object-fit: cover;
+      margin-top: 20px;
+    }
     h2 {
       color: #fff;
       font-size: 30px;
@@ -26,7 +29,7 @@ header {
         display: flex !important;
         flex-direction: column;
         position: absolute;
-        background: linear-gradient(180deg, #09034d 0%, #05020d 100%);;
+        background: linear-gradient(180deg, #09034d 0%, #05020d 100%);
         width: calc(100% - 20px);
         left: 0;
         padding: 1rem;
