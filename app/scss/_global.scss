@@ -115,3 +115,7 @@ button:active {
 .hide {
   display: none;
 }
+.animate{
+  transition: 2s ease-in-out;
+  opacity: 1 !important;
+}
